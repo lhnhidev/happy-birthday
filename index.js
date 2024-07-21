@@ -12,7 +12,7 @@ box.addEventListener('click', () => {
 var music = new Audio('./assets/img/audio.mp4');
 
 volumn.addEventListener('input', () => {
-    if (volumn.value < 42) { // if you ask myseflt, why fucking man use 42?? Ok my answer: because i like it =))
+    if (volumn.value < 63) { // if you ask myseflt, why fucking man use 63?? Ok my answer: because i like it =))
         music.play();
         setTimeout(() => {
             ma.classList.add('show');

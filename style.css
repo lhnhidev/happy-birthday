@@ -116,6 +116,10 @@ h2 {
         font-size: 25px;
     }
 
+    .image {
+        object-position: center -20px;
+    }
+
     :root {
         --size-slider: 36px;
     }
