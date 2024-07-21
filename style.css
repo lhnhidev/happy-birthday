@@ -79,14 +79,6 @@ h2 {
     cursor: pointer;
 }
 
-.arrow {
-    position: absolute;
-    z-index: 100;
-    top: calc(50% - 42px);
-    left: calc(50% + 380px);
-    font-size: 80px;
-}
-
 /* responsive  */
 
 @media screen and (max-width: 700px) {
@@ -98,6 +90,10 @@ h2 {
 @media screen and (max-width: 580px) {
     .container {
         width: 380px;
+    }
+
+    h2 {
+        top: -110px;
     }
 
     :root {
